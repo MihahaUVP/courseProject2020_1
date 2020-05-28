@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29728.190
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Console_info", "Console_info.csproj", "{AE23E56F-3988-42C8-9797-ADA8BEE25DD7}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Card", "Card\Card.csproj", "{AE5D4AAB-D384-446F-A3F9-E4ACB14D0667}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{4972612C-FD9E-4D98-86F4-2F906FA81311}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Web_Cards_And_Players", "Web_Cards_And_Players\Web_Cards_And_Players.csproj", "{6B2E96B0-09FB-44B7-A86A-8ADE3B1234EE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Console_info", "Console_info\Console_info.csproj", "{13C96803-2FDF-4F4A-A895-B3CA0B5E9028}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{AE23E56F-3988-42C8-9797-ADA8BEE25DD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AE23E56F-3988-42C8-9797-ADA8BEE25DD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AE23E56F-3988-42C8-9797-ADA8BEE25DD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AE23E56F-3988-42C8-9797-ADA8BEE25DD7}.Release|Any CPU.Build.0 = Release|Any CPU
 		{AE5D4AAB-D384-446F-A3F9-E4ACB14D0667}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{AE5D4AAB-D384-446F-A3F9-E4ACB14D0667}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AE5D4AAB-D384-446F-A3F9-E4ACB14D0667}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -33,6 +29,10 @@ Global
 		{6B2E96B0-09FB-44B7-A86A-8ADE3B1234EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6B2E96B0-09FB-44B7-A86A-8ADE3B1234EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6B2E96B0-09FB-44B7-A86A-8ADE3B1234EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13C96803-2FDF-4F4A-A895-B3CA0B5E9028}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13C96803-2FDF-4F4A-A895-B3CA0B5E9028}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13C96803-2FDF-4F4A-A895-B3CA0B5E9028}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13C96803-2FDF-4F4A-A895-B3CA0B5E9028}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

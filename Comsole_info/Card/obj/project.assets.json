@@ -4965,19 +4965,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\миша\\.nuget\\packages\\": {}
+    "C:\\Users\\User\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\миша\\source\\repos\\Comsole_info\\Card\\Card.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Desktop\\Курсовая\\courseProject2020_1\\Comsole_info\\Card\\Card.csproj",
       "projectName": "Card",
-      "projectPath": "C:\\Users\\миша\\source\\repos\\Comsole_info\\Card\\Card.csproj",
-      "packagesPath": "C:\\Users\\миша\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\миша\\source\\repos\\Comsole_info\\Card\\obj\\",
+      "projectPath": "C:\\Users\\User\\Desktop\\Курсовая\\courseProject2020_1\\Comsole_info\\Card\\Card.csproj",
+      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\User\\Desktop\\Курсовая\\courseProject2020_1\\Comsole_info\\Card\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\миша\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5031,7 +5035,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.202\\RuntimeIdentifierGraph.json"
       }
     }
   }
