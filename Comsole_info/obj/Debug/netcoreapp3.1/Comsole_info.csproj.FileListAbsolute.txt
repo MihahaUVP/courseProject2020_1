@@ -1,0 +1,11 @@
+C:\Users\миша\source\repos\Comsole_info\bin\Debug\netcoreapp3.1\Comsole_info.exe
+C:\Users\миша\source\repos\Comsole_info\bin\Debug\netcoreapp3.1\Comsole_info.deps.json
+C:\Users\миша\source\repos\Comsole_info\bin\Debug\netcoreapp3.1\Comsole_info.runtimeconfig.json
+C:\Users\миша\source\repos\Comsole_info\bin\Debug\netcoreapp3.1\Comsole_info.runtimeconfig.dev.json
+C:\Users\миша\source\repos\Comsole_info\bin\Debug\netcoreapp3.1\Comsole_info.dll
+C:\Users\миша\source\repos\Comsole_info\bin\Debug\netcoreapp3.1\Comsole_info.pdb
+C:\Users\миша\source\repos\Comsole_info\obj\Debug\netcoreapp3.1\Comsole_info.csprojAssemblyReference.cache
+C:\Users\миша\source\repos\Comsole_info\obj\Debug\netcoreapp3.1\Comsole_info.AssemblyInfoInputs.cache
+C:\Users\миша\source\repos\Comsole_info\obj\Debug\netcoreapp3.1\Comsole_info.AssemblyInfo.cs
+C:\Users\миша\source\repos\Comsole_info\obj\Debug\netcoreapp3.1\Comsole_info.dll
+C:\Users\миша\source\repos\Comsole_info\obj\Debug\netcoreapp3.1\Comsole_info.pdb
