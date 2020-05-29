@@ -28,8 +28,7 @@ namespace Comsole_info
         }
         static void Main(string[] args)
         {
-            Console.WriteLine("Start!");
-
+            Console.WriteLine("This is Opalenniy mir!");
             Player player = new Player("Деревенский",20);
             _playerRepository.Add(player);
             Card card = new Card(player.Id,"Доктор",2,2,10,"Ты как из палаты вышел?");

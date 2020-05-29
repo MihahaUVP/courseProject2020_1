@@ -1,6 +1,11 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Comsole_info",
+    "\\Comsole_info\\Card",
+    "\\Comsole_info\\Console_info",
+    "\\Comsole_info\\Infrastructure"
   ],
+  "SelectedNode": "\\Comsole_info\\Cards.sln",
   "PreviewInSolutionExplorer": false
 }

@@ -30,3 +30,13 @@ C:\Users\User\Desktop\Курсовая\courseProject2020_1\Comsole_info\Card\obj
 C:\Users\User\Desktop\Курсовая\courseProject2020_1\Comsole_info\Card\obj\Debug\netcoreapp3.1\Card.dll
 C:\Users\User\Desktop\Курсовая\courseProject2020_1\Comsole_info\Card\obj\Debug\netcoreapp3.1\Card.pdb
 C:\Users\User\Desktop\Курсовая\courseProject2020_1\Comsole_info\Card\obj\Debug\netcoreapp3.1\Card.genruntimeconfig.cache
+C:\Users\миша\Source\Repos\courseProject2020_1\Comsole_info\Card\bin\Debug\netcoreapp3.1\Card.deps.json
+C:\Users\миша\Source\Repos\courseProject2020_1\Comsole_info\Card\bin\Debug\netcoreapp3.1\Card.runtimeconfig.json
+C:\Users\миша\Source\Repos\courseProject2020_1\Comsole_info\Card\bin\Debug\netcoreapp3.1\Card.runtimeconfig.dev.json
+C:\Users\миша\Source\Repos\courseProject2020_1\Comsole_info\Card\bin\Debug\netcoreapp3.1\Card.dll
+C:\Users\миша\Source\Repos\courseProject2020_1\Comsole_info\Card\bin\Debug\netcoreapp3.1\Card.pdb
+C:\Users\миша\Source\Repos\courseProject2020_1\Comsole_info\Card\obj\Debug\netcoreapp3.1\Card.csprojAssemblyReference.cache
+C:\Users\миша\Source\Repos\courseProject2020_1\Comsole_info\Card\obj\Debug\netcoreapp3.1\Card.AssemblyInfoInputs.cache
+C:\Users\миша\Source\Repos\courseProject2020_1\Comsole_info\Card\obj\Debug\netcoreapp3.1\Card.AssemblyInfo.cs
+C:\Users\миша\Source\Repos\courseProject2020_1\Comsole_info\Card\obj\Debug\netcoreapp3.1\Card.dll
+C:\Users\миша\Source\Repos\courseProject2020_1\Comsole_info\Card\obj\Debug\netcoreapp3.1\Card.pdb
