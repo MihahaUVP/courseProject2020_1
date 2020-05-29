@@ -27,7 +27,6 @@
           "Card": "1.0.0",
           "Infrastructure": "1.0.0",
           "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "3.1.4",
-          "Microsoft.EntityFrameworkCore": "3.1.4",
           "Microsoft.EntityFrameworkCore.Design": "3.1.4",
           "Microsoft.EntityFrameworkCore.SqlServer": "3.1.4",
           "Microsoft.AspNetCore.Antiforgery": "3.1.0.0",
@@ -1269,7 +1268,7 @@
       },
       "Card/1.0.0": {
         "dependencies": {
-          "Microsoft.EntityFrameworkCore": "3.1.4",
+          "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "3.1.4",
           "Microsoft.EntityFrameworkCore.SqlServer": "3.1.4"
         },
         "runtime": {
@@ -1282,7 +1281,7 @@
       "Infrastructure/1.0.0": {
         "dependencies": {
           "Card": "1.0.0",
-          "Microsoft.EntityFrameworkCore": "3.1.4",
+          "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "3.1.4",
           "Microsoft.EntityFrameworkCore.SqlServer": "3.1.4"
         },
         "runtime": {

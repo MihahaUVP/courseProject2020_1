@@ -24,7 +24,6 @@ C:\Users\User\Desktop\Курсовая\courseProject2020_1\Comsole_info\Card\bin
 C:\Users\User\Desktop\Курсовая\courseProject2020_1\Comsole_info\Card\bin\Debug\netcoreapp3.1\Card.dll
 C:\Users\User\Desktop\Курсовая\courseProject2020_1\Comsole_info\Card\bin\Debug\netcoreapp3.1\Card.pdb
 C:\Users\User\Desktop\Курсовая\courseProject2020_1\Comsole_info\Card\obj\Debug\netcoreapp3.1\Card.csprojAssemblyReference.cache
-C:\Users\User\Desktop\Курсовая\courseProject2020_1\Comsole_info\Card\obj\Debug\netcoreapp3.1\Card.csproj.CoreCompileInputs.cache
 C:\Users\User\Desktop\Курсовая\courseProject2020_1\Comsole_info\Card\obj\Debug\netcoreapp3.1\Card.AssemblyInfoInputs.cache
 C:\Users\User\Desktop\Курсовая\courseProject2020_1\Comsole_info\Card\obj\Debug\netcoreapp3.1\Card.AssemblyInfo.cs
 C:\Users\User\Desktop\Курсовая\courseProject2020_1\Comsole_info\Card\obj\Debug\netcoreapp3.1\Card.dll
@@ -40,3 +39,4 @@ C:\Users\миша\Source\Repos\courseProject2020_1\Comsole_info\Card\obj\Debug\n
 C:\Users\миша\Source\Repos\courseProject2020_1\Comsole_info\Card\obj\Debug\netcoreapp3.1\Card.AssemblyInfo.cs
 C:\Users\миша\Source\Repos\courseProject2020_1\Comsole_info\Card\obj\Debug\netcoreapp3.1\Card.dll
 C:\Users\миша\Source\Repos\courseProject2020_1\Comsole_info\Card\obj\Debug\netcoreapp3.1\Card.pdb
+C:\Users\User\Desktop\Курсовая\courseProject2020_1\Comsole_info\Card\obj\Debug\netcoreapp3.1\Card.csproj.CoreCompileInputs.cache

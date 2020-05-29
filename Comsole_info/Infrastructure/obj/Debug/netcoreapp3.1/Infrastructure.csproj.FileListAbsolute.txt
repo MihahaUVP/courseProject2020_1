@@ -32,7 +32,6 @@ C:\Users\User\Desktop\Курсовая\courseProject2020_1\Comsole_info\Infrastr
 C:\Users\User\Desktop\Курсовая\courseProject2020_1\Comsole_info\Infrastructure\bin\Debug\netcoreapp3.1\Card.dll
 C:\Users\User\Desktop\Курсовая\courseProject2020_1\Comsole_info\Infrastructure\bin\Debug\netcoreapp3.1\Card.pdb
 C:\Users\User\Desktop\Курсовая\courseProject2020_1\Comsole_info\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.csprojAssemblyReference.cache
-C:\Users\User\Desktop\Курсовая\courseProject2020_1\Comsole_info\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.csproj.CoreCompileInputs.cache
 C:\Users\User\Desktop\Курсовая\courseProject2020_1\Comsole_info\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.AssemblyInfoInputs.cache
 C:\Users\User\Desktop\Курсовая\courseProject2020_1\Comsole_info\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.AssemblyInfo.cs
 C:\Users\User\Desktop\Курсовая\courseProject2020_1\Comsole_info\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.csproj.CopyComplete
@@ -52,3 +51,4 @@ C:\Users\миша\Source\Repos\courseProject2020_1\Comsole_info\Infrastructure\o
 C:\Users\миша\Source\Repos\courseProject2020_1\Comsole_info\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.csproj.CopyComplete
 C:\Users\миша\Source\Repos\courseProject2020_1\Comsole_info\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.dll
 C:\Users\миша\Source\Repos\courseProject2020_1\Comsole_info\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.pdb
+C:\Users\User\Desktop\Курсовая\courseProject2020_1\Comsole_info\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.csproj.CoreCompileInputs.cache

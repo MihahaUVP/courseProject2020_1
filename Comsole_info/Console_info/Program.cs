@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 using Cards.Entities;
 using Infrastructure.DataAccess;
 using Microsoft.EntityFrameworkCore;
@@ -34,6 +35,16 @@ namespace Comsole_info
             Card card = new Card(player.Id,"Доктор",2,2,10,"Ты как из палаты вышел?");
             _cardRepository.Add(card);
             Console.WriteLine("Hello " + card.Name);
+
+            using (_appContext)
+            {
+                var cards = _appContext.Cards.ToList();
+                Console.WriteLine("Текущая колода:");
+                foreach(Card c in cards)
+                {
+                    Console.WriteLine($"{c.Id}) {c.Name}: {c.Gold} gold, {c.Damage} atk; <<{c.Text}>>");
+                }
+            }
         }
     }
 }

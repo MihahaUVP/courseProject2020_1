@@ -170,7 +170,6 @@ C:\Users\User\Desktop\Курсовая\courseProject2020_1\Comsole_info\Console_
 C:\Users\User\Desktop\Курсовая\courseProject2020_1\Comsole_info\Console_info\bin\Debug\netcoreapp3.1\Infrastructure.pdb
 C:\Users\User\Desktop\Курсовая\courseProject2020_1\Comsole_info\Console_info\bin\Debug\netcoreapp3.1\Web_Cards_And_Players.pdb
 C:\Users\User\Desktop\Курсовая\courseProject2020_1\Comsole_info\Console_info\obj\Debug\netcoreapp3.1\Console_info.csprojAssemblyReference.cache
-C:\Users\User\Desktop\Курсовая\courseProject2020_1\Comsole_info\Console_info\obj\Debug\netcoreapp3.1\Console_info.csproj.CoreCompileInputs.cache
 C:\Users\User\Desktop\Курсовая\courseProject2020_1\Comsole_info\Console_info\obj\Debug\netcoreapp3.1\Console_info.AssemblyInfoInputs.cache
 C:\Users\User\Desktop\Курсовая\courseProject2020_1\Comsole_info\Console_info\obj\Debug\netcoreapp3.1\Console_info.AssemblyInfo.cs
 C:\Users\User\Desktop\Курсовая\courseProject2020_1\Comsole_info\Console_info\obj\Debug\netcoreapp3.1\Console_info.csproj.CopyComplete
@@ -236,3 +235,4 @@ C:\Users\миша\Source\Repos\courseProject2020_1\Comsole_info\Console_info\obj
 C:\Users\миша\Source\Repos\courseProject2020_1\Comsole_info\Console_info\obj\Debug\netcoreapp3.1\Console_info.csproj.CopyComplete
 C:\Users\миша\Source\Repos\courseProject2020_1\Comsole_info\Console_info\obj\Debug\netcoreapp3.1\Console_info.dll
 C:\Users\миша\Source\Repos\courseProject2020_1\Comsole_info\Console_info\obj\Debug\netcoreapp3.1\Console_info.pdb
+C:\Users\User\Desktop\Курсовая\courseProject2020_1\Comsole_info\Console_info\obj\Debug\netcoreapp3.1\Console_info.csproj.CoreCompileInputs.cache
