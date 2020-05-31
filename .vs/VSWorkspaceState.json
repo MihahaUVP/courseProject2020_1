@@ -1,11 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Comsole_info",
-    "\\Comsole_info\\Card",
-    "\\Comsole_info\\Console_info",
-    "\\Comsole_info\\Infrastructure"
+    "\\CardsAndPlayers"
   ],
-  "SelectedNode": "\\Comsole_info\\Cards.sln",
+  "SelectedNode": "\\CardsAndPlayers\\Cards.sln",
   "PreviewInSolutionExplorer": false
 }
