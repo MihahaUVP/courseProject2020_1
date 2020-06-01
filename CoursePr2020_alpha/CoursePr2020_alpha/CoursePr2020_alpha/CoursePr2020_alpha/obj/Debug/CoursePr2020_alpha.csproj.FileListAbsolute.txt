@@ -1,0 +1,37 @@
+c:\users\liza\documents\visual studio 2013\Projects\CoursePr2020_alpha\CoursePr2020_alpha\bin\Debug\CoursePr2020_alpha.exe.config
+C:\Users\Liza\documents\visual studio 2013\Projects\CoursePr2020_alpha\CoursePr2020_alpha\obj\Debug\CoursePr2020_alpha.csprojResolveAssemblyReference.cache
+C:\Users\Liza\documents\visual studio 2013\Projects\CoursePr2020_alpha\CoursePr2020_alpha\obj\Debug\CoursePr2020_alpha.Properties.Resources.resources
+C:\Users\Liza\documents\visual studio 2013\Projects\CoursePr2020_alpha\CoursePr2020_alpha\obj\Debug\CoursePr2020_alpha.csproj.GenerateResource.Cache
+C:\Users\Liza\documents\visual studio 2013\Projects\CoursePr2020_alpha\CoursePr2020_alpha\bin\Debug\CoursePr2020_alpha.exe
+C:\Users\Liza\documents\visual studio 2013\Projects\CoursePr2020_alpha\CoursePr2020_alpha\bin\Debug\CoursePr2020_alpha.pdb
+C:\Users\Liza\documents\visual studio 2013\Projects\CoursePr2020_alpha\CoursePr2020_alpha\obj\Debug\CoursePr2020_alpha.exe
+C:\Users\Liza\documents\visual studio 2013\Projects\CoursePr2020_alpha\CoursePr2020_alpha\obj\Debug\CoursePr2020_alpha.pdb
+C:\Users\Liza\documents\visual studio 2013\Projects\CoursePr2020_alpha\CoursePr2020_alpha\obj\Debug\CoursePr2020_alpha.Form1.resources
+C:\Users\миша\source\repos\CoursePr2020_alpha\CoursePr2020_alpha\bin\Debug\CoursePr2020_alpha.exe.config
+C:\Users\миша\source\repos\CoursePr2020_alpha\CoursePr2020_alpha\bin\Debug\CoursePr2020_alpha.exe
+C:\Users\миша\source\repos\CoursePr2020_alpha\CoursePr2020_alpha\bin\Debug\CoursePr2020_alpha.pdb
+C:\Users\миша\source\repos\CoursePr2020_alpha\CoursePr2020_alpha\obj\Debug\CoursePr2020_alpha.csprojAssemblyReference.cache
+C:\Users\миша\source\repos\CoursePr2020_alpha\CoursePr2020_alpha\obj\Debug\CoursePr2020_alpha.Form1.resources
+C:\Users\миша\source\repos\CoursePr2020_alpha\CoursePr2020_alpha\obj\Debug\CoursePr2020_alpha.Properties.Resources.resources
+C:\Users\миша\source\repos\CoursePr2020_alpha\CoursePr2020_alpha\obj\Debug\CoursePr2020_alpha.csproj.GenerateResource.cache
+C:\Users\миша\source\repos\CoursePr2020_alpha\CoursePr2020_alpha\obj\Debug\CoursePr2020_alpha.exe
+C:\Users\миша\source\repos\CoursePr2020_alpha\CoursePr2020_alpha\obj\Debug\CoursePr2020_alpha.pdb
+C:\Users\User\Desktop\Курсовая\CoursePr2020_alpha\CoursePr2020_alpha\CoursePr2020_alpha\bin\Debug\CoursePr2020_alpha.exe.config
+C:\Users\User\Desktop\Курсовая\CoursePr2020_alpha\CoursePr2020_alpha\CoursePr2020_alpha\bin\Debug\CoursePr2020_alpha.exe
+C:\Users\User\Desktop\Курсовая\CoursePr2020_alpha\CoursePr2020_alpha\CoursePr2020_alpha\bin\Debug\CoursePr2020_alpha.pdb
+C:\Users\User\Desktop\Курсовая\CoursePr2020_alpha\CoursePr2020_alpha\CoursePr2020_alpha\obj\Debug\CoursePr2020_alpha.csprojAssemblyReference.cache
+C:\Users\User\Desktop\Курсовая\CoursePr2020_alpha\CoursePr2020_alpha\CoursePr2020_alpha\obj\Debug\CoursePr2020_alpha.Form1.resources
+C:\Users\User\Desktop\Курсовая\CoursePr2020_alpha\CoursePr2020_alpha\CoursePr2020_alpha\obj\Debug\CoursePr2020_alpha.Properties.Resources.resources
+C:\Users\User\Desktop\Курсовая\CoursePr2020_alpha\CoursePr2020_alpha\CoursePr2020_alpha\obj\Debug\CoursePr2020_alpha.csproj.GenerateResource.cache
+C:\Users\User\Desktop\Курсовая\CoursePr2020_alpha\CoursePr2020_alpha\CoursePr2020_alpha\obj\Debug\CoursePr2020_alpha.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Курсовая\CoursePr2020_alpha\CoursePr2020_alpha\CoursePr2020_alpha\obj\Debug\CoursePr2020_alpha.exe
+C:\Users\User\Desktop\Курсовая\CoursePr2020_alpha\CoursePr2020_alpha\CoursePr2020_alpha\obj\Debug\CoursePr2020_alpha.pdb
+C:\Users\миша\Downloads\CoursePr2020_alpha\CoursePr2020_alpha\CoursePr2020_alpha\CoursePr2020_alpha\bin\Debug\CoursePr2020_alpha.exe.config
+C:\Users\миша\Downloads\CoursePr2020_alpha\CoursePr2020_alpha\CoursePr2020_alpha\CoursePr2020_alpha\bin\Debug\CoursePr2020_alpha.exe
+C:\Users\миша\Downloads\CoursePr2020_alpha\CoursePr2020_alpha\CoursePr2020_alpha\CoursePr2020_alpha\bin\Debug\CoursePr2020_alpha.pdb
+C:\Users\миша\Downloads\CoursePr2020_alpha\CoursePr2020_alpha\CoursePr2020_alpha\CoursePr2020_alpha\obj\Debug\CoursePr2020_alpha.csprojAssemblyReference.cache
+C:\Users\миша\Downloads\CoursePr2020_alpha\CoursePr2020_alpha\CoursePr2020_alpha\CoursePr2020_alpha\obj\Debug\CoursePr2020_alpha.Form1.resources
+C:\Users\миша\Downloads\CoursePr2020_alpha\CoursePr2020_alpha\CoursePr2020_alpha\CoursePr2020_alpha\obj\Debug\CoursePr2020_alpha.Properties.Resources.resources
+C:\Users\миша\Downloads\CoursePr2020_alpha\CoursePr2020_alpha\CoursePr2020_alpha\CoursePr2020_alpha\obj\Debug\CoursePr2020_alpha.csproj.GenerateResource.cache
+C:\Users\миша\Downloads\CoursePr2020_alpha\CoursePr2020_alpha\CoursePr2020_alpha\CoursePr2020_alpha\obj\Debug\CoursePr2020_alpha.exe
+C:\Users\миша\Downloads\CoursePr2020_alpha\CoursePr2020_alpha\CoursePr2020_alpha\CoursePr2020_alpha\obj\Debug\CoursePr2020_alpha.pdb
