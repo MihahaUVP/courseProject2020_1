@@ -32,7 +32,7 @@ namespace Comsole_info
             Console.WriteLine("This is Opalenniy mir!");
             Player player = new Player("Деревенский",20);
             _playerRepository.Add(player);
-            Card card = new Card(player.Id,"Доктор",2,2,10,"Ты как из палаты вышел?");
+            Card card = new Card(player.Id,"Джин",2,2,10,"Загадай желание");
             _cardRepository.Add(card);
             Console.WriteLine("Hello " + card.Name);
 

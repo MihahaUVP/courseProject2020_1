@@ -1325,6 +1325,7 @@
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
           "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "3.1.4",
+          "Microsoft.EntityFrameworkCore": "3.1.4",
           "Microsoft.EntityFrameworkCore.SqlServer": "3.1.4"
         },
         "compile": {
@@ -1343,6 +1344,7 @@
         "dependencies": {
           "Card": "1.0.0",
           "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "3.1.4",
+          "Microsoft.EntityFrameworkCore": "3.1.4",
           "Microsoft.EntityFrameworkCore.SqlServer": "3.1.4"
         },
         "compile": {
@@ -1362,6 +1364,7 @@
           "Card": "1.0.0",
           "Infrastructure": "1.0.0",
           "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "3.1.4",
+          "Microsoft.EntityFrameworkCore": "3.1.4",
           "Microsoft.EntityFrameworkCore.SqlServer": "3.1.4"
         },
         "compile": {
@@ -5163,6 +5166,7 @@
       "Card >= 1.0.0",
       "Infrastructure >= 1.0.0",
       "Microsoft.AspNetCore.Mvc.NewtonsoftJson >= 3.1.4",
+      "Microsoft.EntityFrameworkCore >= 3.1.4",
       "Microsoft.EntityFrameworkCore.Design >= 3.1.4",
       "Microsoft.EntityFrameworkCore.SqlServer >= 3.1.4",
       "Web_Cards_And_Players >= 1.0.0"
@@ -5174,11 +5178,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\миша\\Source\\Repos\\courseProject2020_1\\CardsAndPlayers\\Console_info\\Console_info.csproj",
+      "projectUniqueName": "C:\\Users\\миша\\source\\repos\\courseProject2020_1\\CardsAndPlayers\\Console_info\\Console_info.csproj",
       "projectName": "Console_info",
-      "projectPath": "C:\\Users\\миша\\Source\\Repos\\courseProject2020_1\\CardsAndPlayers\\Console_info\\Console_info.csproj",
+      "projectPath": "C:\\Users\\миша\\source\\repos\\courseProject2020_1\\CardsAndPlayers\\Console_info\\Console_info.csproj",
       "packagesPath": "C:\\Users\\миша\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\миша\\Source\\Repos\\courseProject2020_1\\CardsAndPlayers\\Console_info\\obj\\",
+      "outputPath": "C:\\Users\\миша\\source\\repos\\courseProject2020_1\\CardsAndPlayers\\Console_info\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\миша\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5194,14 +5198,14 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\миша\\Source\\Repos\\courseProject2020_1\\CardsAndPlayers\\Card\\Card.csproj": {
-              "projectPath": "C:\\Users\\миша\\Source\\Repos\\courseProject2020_1\\CardsAndPlayers\\Card\\Card.csproj"
+            "C:\\Users\\миша\\source\\repos\\courseProject2020_1\\CardsAndPlayers\\Card\\Card.csproj": {
+              "projectPath": "C:\\Users\\миша\\source\\repos\\courseProject2020_1\\CardsAndPlayers\\Card\\Card.csproj"
             },
-            "C:\\Users\\миша\\Source\\Repos\\courseProject2020_1\\CardsAndPlayers\\Infrastructure\\Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\миша\\Source\\Repos\\courseProject2020_1\\CardsAndPlayers\\Infrastructure\\Infrastructure.csproj"
+            "C:\\Users\\миша\\source\\repos\\courseProject2020_1\\CardsAndPlayers\\Infrastructure\\Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\миша\\source\\repos\\courseProject2020_1\\CardsAndPlayers\\Infrastructure\\Infrastructure.csproj"
             },
-            "C:\\Users\\миша\\Source\\Repos\\courseProject2020_1\\CardsAndPlayers\\Web_Cards_And_Players\\Web_Cards_And_Players.csproj": {
-              "projectPath": "C:\\Users\\миша\\Source\\Repos\\courseProject2020_1\\CardsAndPlayers\\Web_Cards_And_Players\\Web_Cards_And_Players.csproj"
+            "C:\\Users\\миша\\source\\repos\\courseProject2020_1\\CardsAndPlayers\\Web_Cards_And_Players\\Web_Cards_And_Players.csproj": {
+              "projectPath": "C:\\Users\\миша\\source\\repos\\courseProject2020_1\\CardsAndPlayers\\Web_Cards_And_Players\\Web_Cards_And_Players.csproj"
             }
           }
         }
@@ -5216,6 +5220,10 @@
       "netcoreapp3.1": {
         "dependencies": {
           "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+            "target": "Package",
+            "version": "[3.1.4, )"
+          },
+          "Microsoft.EntityFrameworkCore": {
             "target": "Package",
             "version": "[3.1.4, )"
           },

@@ -292,10 +292,10 @@ C:\Users\миша\Source\Repos\courseProject2020_1\CardsAndPlayers\Web_Cards_And
 C:\Users\миша\Source\Repos\courseProject2020_1\CardsAndPlayers\Web_Cards_And_Players\obj\Debug\netcoreapp3.1\Web_Cards_And_Players.csprojAssemblyReference.cache
 C:\Users\миша\Source\Repos\courseProject2020_1\CardsAndPlayers\Web_Cards_And_Players\obj\Debug\netcoreapp3.1\staticwebassets\Web_Cards_And_Players.StaticWebAssets.Manifest.cache
 C:\Users\миша\Source\Repos\courseProject2020_1\CardsAndPlayers\Web_Cards_And_Players\obj\Debug\netcoreapp3.1\staticwebassets\Web_Cards_And_Players.StaticWebAssets.xml
-C:\Users\миша\Source\Repos\courseProject2020_1\CardsAndPlayers\Web_Cards_And_Players\obj\Debug\netcoreapp3.1\Web_Cards_And_Players.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\миша\Source\Repos\courseProject2020_1\CardsAndPlayers\Web_Cards_And_Players\obj\Debug\netcoreapp3.1\Web_Cards_And_Players.AssemblyInfoInputs.cache
 C:\Users\миша\Source\Repos\courseProject2020_1\CardsAndPlayers\Web_Cards_And_Players\obj\Debug\netcoreapp3.1\Web_Cards_And_Players.AssemblyInfo.cs
 C:\Users\миша\Source\Repos\courseProject2020_1\CardsAndPlayers\Web_Cards_And_Players\obj\Debug\netcoreapp3.1\Web_Cards_And_Players.RazorTargetAssemblyInfo.cache
 C:\Users\миша\Source\Repos\courseProject2020_1\CardsAndPlayers\Web_Cards_And_Players\obj\Debug\netcoreapp3.1\Web_Cards_And_Players.csproj.CopyComplete
 C:\Users\миша\Source\Repos\courseProject2020_1\CardsAndPlayers\Web_Cards_And_Players\obj\Debug\netcoreapp3.1\Web_Cards_And_Players.dll
 C:\Users\миша\Source\Repos\courseProject2020_1\CardsAndPlayers\Web_Cards_And_Players\obj\Debug\netcoreapp3.1\Web_Cards_And_Players.pdb
+C:\Users\миша\source\repos\courseProject2020_1\CardsAndPlayers\Web_Cards_And_Players\obj\Debug\netcoreapp3.1\Web_Cards_And_Players.MvcApplicationPartsAssemblyInfo.cache

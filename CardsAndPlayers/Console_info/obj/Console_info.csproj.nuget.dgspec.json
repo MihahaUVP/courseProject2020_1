@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\миша\\Source\\Repos\\courseProject2020_1\\CardsAndPlayers\\Console_info\\Console_info.csproj": {}
+    "C:\\Users\\миша\\source\\repos\\courseProject2020_1\\CardsAndPlayers\\Console_info\\Console_info.csproj": {}
   },
   "projects": {
-    "C:\\Users\\миша\\Source\\Repos\\courseProject2020_1\\CardsAndPlayers\\Card\\Card.csproj": {
+    "C:\\Users\\миша\\source\\repos\\courseProject2020_1\\CardsAndPlayers\\Card\\Card.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\миша\\Source\\Repos\\courseProject2020_1\\CardsAndPlayers\\Card\\Card.csproj",
+        "projectUniqueName": "C:\\Users\\миша\\source\\repos\\courseProject2020_1\\CardsAndPlayers\\Card\\Card.csproj",
         "projectName": "Card",
-        "projectPath": "C:\\Users\\миша\\Source\\Repos\\courseProject2020_1\\CardsAndPlayers\\Card\\Card.csproj",
+        "projectPath": "C:\\Users\\миша\\source\\repos\\courseProject2020_1\\CardsAndPlayers\\Card\\Card.csproj",
         "packagesPath": "C:\\Users\\миша\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\миша\\Source\\Repos\\courseProject2020_1\\CardsAndPlayers\\Card\\obj\\",
+        "outputPath": "C:\\Users\\миша\\source\\repos\\courseProject2020_1\\CardsAndPlayers\\Card\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\миша\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -42,6 +42,10 @@
               "target": "Package",
               "version": "[3.1.4, )"
             },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
@@ -75,14 +79,14 @@
         }
       }
     },
-    "C:\\Users\\миша\\Source\\Repos\\courseProject2020_1\\CardsAndPlayers\\Console_info\\Console_info.csproj": {
+    "C:\\Users\\миша\\source\\repos\\courseProject2020_1\\CardsAndPlayers\\Console_info\\Console_info.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\миша\\Source\\Repos\\courseProject2020_1\\CardsAndPlayers\\Console_info\\Console_info.csproj",
+        "projectUniqueName": "C:\\Users\\миша\\source\\repos\\courseProject2020_1\\CardsAndPlayers\\Console_info\\Console_info.csproj",
         "projectName": "Console_info",
-        "projectPath": "C:\\Users\\миша\\Source\\Repos\\courseProject2020_1\\CardsAndPlayers\\Console_info\\Console_info.csproj",
+        "projectPath": "C:\\Users\\миша\\source\\repos\\courseProject2020_1\\CardsAndPlayers\\Console_info\\Console_info.csproj",
         "packagesPath": "C:\\Users\\миша\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\миша\\Source\\Repos\\courseProject2020_1\\CardsAndPlayers\\Console_info\\obj\\",
+        "outputPath": "C:\\Users\\миша\\source\\repos\\courseProject2020_1\\CardsAndPlayers\\Console_info\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\миша\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -98,14 +102,14 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\миша\\Source\\Repos\\courseProject2020_1\\CardsAndPlayers\\Card\\Card.csproj": {
-                "projectPath": "C:\\Users\\миша\\Source\\Repos\\courseProject2020_1\\CardsAndPlayers\\Card\\Card.csproj"
+              "C:\\Users\\миша\\source\\repos\\courseProject2020_1\\CardsAndPlayers\\Card\\Card.csproj": {
+                "projectPath": "C:\\Users\\миша\\source\\repos\\courseProject2020_1\\CardsAndPlayers\\Card\\Card.csproj"
               },
-              "C:\\Users\\миша\\Source\\Repos\\courseProject2020_1\\CardsAndPlayers\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\миша\\Source\\Repos\\courseProject2020_1\\CardsAndPlayers\\Infrastructure\\Infrastructure.csproj"
+              "C:\\Users\\миша\\source\\repos\\courseProject2020_1\\CardsAndPlayers\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\миша\\source\\repos\\courseProject2020_1\\CardsAndPlayers\\Infrastructure\\Infrastructure.csproj"
               },
-              "C:\\Users\\миша\\Source\\Repos\\courseProject2020_1\\CardsAndPlayers\\Web_Cards_And_Players\\Web_Cards_And_Players.csproj": {
-                "projectPath": "C:\\Users\\миша\\Source\\Repos\\courseProject2020_1\\CardsAndPlayers\\Web_Cards_And_Players\\Web_Cards_And_Players.csproj"
+              "C:\\Users\\миша\\source\\repos\\courseProject2020_1\\CardsAndPlayers\\Web_Cards_And_Players\\Web_Cards_And_Players.csproj": {
+                "projectPath": "C:\\Users\\миша\\source\\repos\\courseProject2020_1\\CardsAndPlayers\\Web_Cards_And_Players\\Web_Cards_And_Players.csproj"
               }
             }
           }
@@ -120,6 +124,10 @@
         "netcoreapp3.1": {
           "dependencies": {
             "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[3.1.4, )"
             },
@@ -156,14 +164,14 @@
         }
       }
     },
-    "C:\\Users\\миша\\Source\\Repos\\courseProject2020_1\\CardsAndPlayers\\Infrastructure\\Infrastructure.csproj": {
+    "C:\\Users\\миша\\source\\repos\\courseProject2020_1\\CardsAndPlayers\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\миша\\Source\\Repos\\courseProject2020_1\\CardsAndPlayers\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\миша\\source\\repos\\courseProject2020_1\\CardsAndPlayers\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "C:\\Users\\миша\\Source\\Repos\\courseProject2020_1\\CardsAndPlayers\\Infrastructure\\Infrastructure.csproj",
+        "projectPath": "C:\\Users\\миша\\source\\repos\\courseProject2020_1\\CardsAndPlayers\\Infrastructure\\Infrastructure.csproj",
         "packagesPath": "C:\\Users\\миша\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\миша\\Source\\Repos\\courseProject2020_1\\CardsAndPlayers\\Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\миша\\source\\repos\\courseProject2020_1\\CardsAndPlayers\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\миша\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -179,8 +187,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\миша\\Source\\Repos\\courseProject2020_1\\CardsAndPlayers\\Card\\Card.csproj": {
-                "projectPath": "C:\\Users\\миша\\Source\\Repos\\courseProject2020_1\\CardsAndPlayers\\Card\\Card.csproj"
+              "C:\\Users\\миша\\source\\repos\\courseProject2020_1\\CardsAndPlayers\\Card\\Card.csproj": {
+                "projectPath": "C:\\Users\\миша\\source\\repos\\courseProject2020_1\\CardsAndPlayers\\Card\\Card.csproj"
               }
             }
           }
@@ -195,6 +203,10 @@
         "netcoreapp3.1": {
           "dependencies": {
             "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[3.1.4, )"
             },
@@ -231,14 +243,14 @@
         }
       }
     },
-    "C:\\Users\\миша\\Source\\Repos\\courseProject2020_1\\CardsAndPlayers\\Web_Cards_And_Players\\Web_Cards_And_Players.csproj": {
+    "C:\\Users\\миша\\source\\repos\\courseProject2020_1\\CardsAndPlayers\\Web_Cards_And_Players\\Web_Cards_And_Players.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\миша\\Source\\Repos\\courseProject2020_1\\CardsAndPlayers\\Web_Cards_And_Players\\Web_Cards_And_Players.csproj",
+        "projectUniqueName": "C:\\Users\\миша\\source\\repos\\courseProject2020_1\\CardsAndPlayers\\Web_Cards_And_Players\\Web_Cards_And_Players.csproj",
         "projectName": "Web_Cards_And_Players",
-        "projectPath": "C:\\Users\\миша\\Source\\Repos\\courseProject2020_1\\CardsAndPlayers\\Web_Cards_And_Players\\Web_Cards_And_Players.csproj",
+        "projectPath": "C:\\Users\\миша\\source\\repos\\courseProject2020_1\\CardsAndPlayers\\Web_Cards_And_Players\\Web_Cards_And_Players.csproj",
         "packagesPath": "C:\\Users\\миша\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\миша\\Source\\Repos\\courseProject2020_1\\CardsAndPlayers\\Web_Cards_And_Players\\obj\\",
+        "outputPath": "C:\\Users\\миша\\source\\repos\\courseProject2020_1\\CardsAndPlayers\\Web_Cards_And_Players\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\миша\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -254,11 +266,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\миша\\Source\\Repos\\courseProject2020_1\\CardsAndPlayers\\Card\\Card.csproj": {
-                "projectPath": "C:\\Users\\миша\\Source\\Repos\\courseProject2020_1\\CardsAndPlayers\\Card\\Card.csproj"
+              "C:\\Users\\миша\\source\\repos\\courseProject2020_1\\CardsAndPlayers\\Card\\Card.csproj": {
+                "projectPath": "C:\\Users\\миша\\source\\repos\\courseProject2020_1\\CardsAndPlayers\\Card\\Card.csproj"
               },
-              "C:\\Users\\миша\\Source\\Repos\\courseProject2020_1\\CardsAndPlayers\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\миша\\Source\\Repos\\courseProject2020_1\\CardsAndPlayers\\Infrastructure\\Infrastructure.csproj"
+              "C:\\Users\\миша\\source\\repos\\courseProject2020_1\\CardsAndPlayers\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\миша\\source\\repos\\courseProject2020_1\\CardsAndPlayers\\Infrastructure\\Infrastructure.csproj"
               }
             }
           }
@@ -273,6 +285,10 @@
         "netcoreapp3.1": {
           "dependencies": {
             "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[3.1.4, )"
             },
