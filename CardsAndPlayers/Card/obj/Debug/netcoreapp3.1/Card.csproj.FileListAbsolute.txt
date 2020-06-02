@@ -50,3 +50,15 @@ C:\Users\миша\source\repos\courseProject2020_1\CardsAndPlayers\Card\obj\Debu
 C:\Users\миша\source\repos\courseProject2020_1\CardsAndPlayers\Card\obj\Debug\netcoreapp3.1\Card.AssemblyInfo.cs
 C:\Users\миша\source\repos\courseProject2020_1\CardsAndPlayers\Card\obj\Debug\netcoreapp3.1\Card.dll
 C:\Users\миша\source\repos\courseProject2020_1\CardsAndPlayers\Card\obj\Debug\netcoreapp3.1\Card.pdb
+C:\Users\User\Desktop\Курсовая\courseProject2020_1\CardsAndPlayers\Card\bin\Debug\netcoreapp3.1\Card.deps.json
+C:\Users\User\Desktop\Курсовая\courseProject2020_1\CardsAndPlayers\Card\bin\Debug\netcoreapp3.1\Card.runtimeconfig.json
+C:\Users\User\Desktop\Курсовая\courseProject2020_1\CardsAndPlayers\Card\bin\Debug\netcoreapp3.1\Card.runtimeconfig.dev.json
+C:\Users\User\Desktop\Курсовая\courseProject2020_1\CardsAndPlayers\Card\bin\Debug\netcoreapp3.1\Card.dll
+C:\Users\User\Desktop\Курсовая\courseProject2020_1\CardsAndPlayers\Card\bin\Debug\netcoreapp3.1\Card.pdb
+C:\Users\User\Desktop\Курсовая\courseProject2020_1\CardsAndPlayers\Card\obj\Debug\netcoreapp3.1\Card.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Курсовая\courseProject2020_1\CardsAndPlayers\Card\obj\Debug\netcoreapp3.1\Card.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\Курсовая\courseProject2020_1\CardsAndPlayers\Card\obj\Debug\netcoreapp3.1\Card.AssemblyInfo.cs
+C:\Users\User\Desktop\Курсовая\courseProject2020_1\CardsAndPlayers\Card\obj\Debug\netcoreapp3.1\Card.dll
+C:\Users\User\Desktop\Курсовая\courseProject2020_1\CardsAndPlayers\Card\obj\Debug\netcoreapp3.1\Card.pdb
+C:\Users\User\Desktop\Курсовая\courseProject2020_1\CardsAndPlayers\Card\obj\Debug\netcoreapp3.1\Card.genruntimeconfig.cache
+C:\Users\User\Desktop\Курсовая\courseProject2020_1\CardsAndPlayers\Card\obj\Debug\netcoreapp3.1\Card.csprojAssemblyReference.cache

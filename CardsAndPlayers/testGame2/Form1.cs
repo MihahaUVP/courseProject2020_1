@@ -13,20 +13,12 @@ namespace testGame2
 {
     public partial class Form1 : Form
     {
-        //Player player1; /// Нижний игрок
-        //Player player2; ///
         Game1 game;
-        //int game_mode = 0;//Внимание! костыль! 0 - начало игры. 1 - фаза вербовки. 2 - фаза боя
+        //int game_mode = 0;//0 - начало игры. 1 - фаза вербовки. 2 - фаза боя; заменить на enum,как team
         int maxGold = 20;
-        //int numberOfCardInPlay; ///номер играемой сейчас карты в руке ... аааа что это значит?
         public Form1()
         {
             InitializeComponent();
-
-            
-            //gold = maxGold;
-
-               
             game = new Game1();
             game.NewGame();
             for (int i = 0; i < 5; i++)
@@ -37,7 +29,7 @@ namespace testGame2
             labelHeroHealth.Text =""+ game.CurrentPlayer.hero.getHealth();
             label_money.Text = "" + game.CurrentPlayer.Stat.Gold;
             Team t = game.CurrentPlayer.getMyTeam();
-            //game.CurrentPlayer.MyDeck.shuffle();
+            game.CurrentPlayer.MyDeck.shuffle();
             label1.Text += game.CurrentPlayer.MyDeck.numberOfCards();
         }
 
@@ -102,6 +94,7 @@ namespace testGame2
                 game.EnemyPlayer = t;
                 newTurn();
                 newHand();
+                button_newHand.Enabled = false;
                 AIplay();
                 
             }
@@ -176,15 +169,11 @@ namespace testGame2
             if (game.CurrentPlayer.Stat.Gold >= game.CurrentPlayer.CurrentCard.getGold() && (!(game.CurrentPlayer.CurrentCard is NullCard)))
             {
                 game.CurrentPlayer.SetCardInPlay(numberOfCard, game.CurrentPlayer.CurrentCard);
-                //cardsInPlay[numberOfCard] = player1.CurrentCard;
                 pb.Image = game.CurrentPlayer.CurrentCard.getImg();
                 game.CurrentPlayer.Stat.Gold -= game.CurrentPlayer.CurrentCard.getGold();
                 label_money.Text = "" + game.CurrentPlayer.Stat.Gold;
-                game.CurrentPlayer.setCardFromHand(new NullCard(), game.CurrentPlayer.NumberOfCardInPlay);// hand[numberOfCardInPlay] = new NullCard();
+                game.CurrentPlayer.setCardFromHand(new NullCard(), game.CurrentPlayer.NumberOfCardInPlay);
                 drawHand();
-
-                //
-
                 game.CurrentPlayer.CurrentCard = new NullCard();
             }
         }
@@ -250,7 +239,7 @@ namespace testGame2
         }
         public void playAttack(int number,PictureBox pb)
         {
-            if (game.CurrentPlayer.getMyTeam() == Team.red) // костыль прописатьт в гейме врага! Внимание! Новый костыль костылее старого!
+            if (game.CurrentPlayer.getMyTeam() == Team.red) //временное решение
             {
                 game.CurrentPlayer.PlayAtackCard(game.EnemyPlayer, number);
                 labelEnemyHealth.Text = "" + game.EnemyPlayer.hero.getHealth();
@@ -258,7 +247,7 @@ namespace testGame2
                 label_energy.Text = "" + game.CurrentPlayer.Stat.Energy;
                 if(game.EnemyPlayer.hero.getHealth() <= 0)
                 {
-                    labelWin.Text = "Ты победил, поздравляю!\n сам написал - сам победил!";
+                    labelWin.Text = "Победа!";
                 }
             }
             else
@@ -267,6 +256,10 @@ namespace testGame2
                 labelHeroHealth.Text = "" + game.EnemyPlayer.hero.getHealth();
                 pb.Image = game.CurrentPlayer.GetCardInPlay(number).getImg();
                 label_energy.Text = "" + game.CurrentPlayer.Stat.Energy;
+                if (game.EnemyPlayer.hero.getHealth() <= 0)
+                {
+                    labelWin.Text = "Поражение!";
+                }
             }
         }
         public void newTurn()
@@ -297,17 +290,12 @@ namespace testGame2
                 pictureBoxEnemyHand1.Image = game.CurrentPlayer.getCardFromHand(0).getImg();// hand[0].getImg();
                 pictureBoxEnemyHand2.Image = game.CurrentPlayer.getCardFromHand(1).getImg();
                 pictureBoxEnemyHand3.Image = game.CurrentPlayer.getCardFromHand(2).getImg();
-               // label_Hand1.Text = "" + player1.getCardFromHand(0).getGold();// hand[0].getGold();
-                //label_Hand2.Text = "" + player1.getCardFromHand(1).getGold();
-              //  label_Hand3.Text = "" + player1.getCardFromHand(2).getGold();
-               // labeldamage1.Text = "" + player1.getCardFromHand(0).getDamage();//hand[0].getDamage();
-              //  labelDamage2.Text = "" + player1.getCardFromHand(1).getDamage();
-              //  labelDamage3.Text = "" + player1.getCardFromHand(2).getDamage();
+              //вывод руки противнкика временный для более лёгкой отладки
             }
         }
 
 
-       private void pictureBoxHand2_MouseEnter(object sender, EventArgs e)
+       /*private void pictureBoxHand2_MouseEnter(object sender, EventArgs e)
         {
             //pictureBoxHand2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
         }
@@ -335,7 +323,7 @@ namespace testGame2
         private void PictureBox_Hand1_MouseLeave(object sender, EventArgs e)
         {
             //PictureBox_Hand1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-        }
+        }*/
 
         private void timer1_Tick(object sender, EventArgs e)
         {
@@ -352,18 +340,7 @@ namespace testGame2
             game.CurrentPlayer = game.EnemyPlayer;
             game.EnemyPlayer = t;
             newTurn();
+            button_newHand.Enabled = true;
         }
     }
-    // перенести код из класса form1 в класс game или player, так как золото и фаза хода - это не характеристики формы!!1\!
- //   public class Player
- //   {
- //       public int gold;
- //   }
-   
-    // значения надо будет брать из базы
-
-    //enum Battle
-    //{
-    //    Battle
-    //}
 }

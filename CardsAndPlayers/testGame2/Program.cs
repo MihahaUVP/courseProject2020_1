@@ -12,7 +12,7 @@ namespace testGame2
         public AppDbContext CreateDbContext(string[] args)
         {
             var optionsBuilder = new DbContextOptionsBuilder<AppDbContext>();
-            optionsBuilder.UseSqlServer("Server=(localdb)\\mssqllocaldb;Database=CardsStorage;Trusted_Connection=True;", b => b.MigrationsAssembly("Infrastructure"));
+            optionsBuilder.UseSqlServer("Server=(localdb)\\mssqllocaldb;Database=CardsStorage_1;Trusted_Connection=True;", b => b.MigrationsAssembly("Infrastructure"));
             return new AppDbContext(optionsBuilder.Options);
         }
     }

@@ -7,7 +7,7 @@ namespace Cards.Entities
     public class Card : AuditableEntity
     {
         public string Text { get; set; }
-        public string Name { get; set; }
+        public string Title { get; set; }
         public int Health { get; set; }
         public int Damage { get; set; }
         public int Gold { get; set; }
@@ -15,17 +15,14 @@ namespace Cards.Entities
         public int PlayerId { get; set; }
         public virtual Player Player { get; set; }
 
-        public Card(int playerId,string name, int health, int damage, int gold, string text)
+        public Card(int playerId, string title, int health, int damage, int gold, string text)
         {
             PlayerId = playerId;
-            Name = name;
-            //Description = description;
-            //PagesCount = pagesCount;
+            Title = title;
             Text = text;
             Health = health;
             Damage = damage;
             Gold = gold;
-            // Mark = mark;
         }
 
         //Для EF Core

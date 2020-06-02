@@ -26,9 +26,9 @@ namespace Infrastructure.DataAccess
             return _dbContext.Cards.Include(b => b.Player).ToList();
         }
 
-        public IReadOnlyList<Card> GetCardsByName(string name)
+        public IReadOnlyList<Card> GetCardsByName(string title)
         {
-            return _dbContext.Cards.Where(x => x.Name.ToLower().Contains(name.ToLower())).ToList();
+            return _dbContext.Cards.Where(x => x.Title.ToLower().Contains(title.ToLower())).ToList();
         }        
     }
 }

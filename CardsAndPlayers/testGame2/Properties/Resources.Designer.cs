@@ -63,6 +63,36 @@ namespace testGame2.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Green_CantervilleGhost {
+            get {
+                object obj = ResourceManager.GetObject("Green_CantervilleGhost", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Green_CatBehemoth {
+            get {
+                object obj = ResourceManager.GetObject("Green_CatBehemoth", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Green_CatScientist {
+            get {
+                object obj = ResourceManager.GetObject("Green_CatScientist", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Green_deck {
             get {
                 object obj = ResourceManager.GetObject("Green_deck", resourceCulture);
@@ -73,9 +103,79 @@ namespace testGame2.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Green_HeadlessHorseman {
+            get {
+                object obj = ResourceManager.GetObject("Green_HeadlessHorseman", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Green_King {
             get {
                 object obj = ResourceManager.GetObject("Green_King", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Green_PussInBoots {
+            get {
+                object obj = ResourceManager.GetObject("Green_PussInBoots", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Green_Solokha {
+            get {
+                object obj = ResourceManager.GetObject("Green_Solokha", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Green_Thief {
+            get {
+                object obj = ResourceManager.GetObject("Green_Thief", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Green_TortureMaster {
+            get {
+                object obj = ResourceManager.GetObject("Green_TortureMaster", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Green_Woland {
+            get {
+                object obj = ResourceManager.GetObject("Green_Woland", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Green_ZmeiGorynych {
+            get {
+                object obj = ResourceManager.GetObject("Green_ZmeiGorynych", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -103,6 +203,16 @@ namespace testGame2.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Red_Baron {
+            get {
+                object obj = ResourceManager.GetObject("Red_Baron", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Red_deck {
             get {
                 object obj = ResourceManager.GetObject("Red_deck", resourceCulture);
@@ -123,6 +233,16 @@ namespace testGame2.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Red_Frog {
+            get {
+                object obj = ResourceManager.GetObject("Red_Frog", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Red_Genie {
             get {
                 object obj = ResourceManager.GetObject("Red_Genie", resourceCulture);
@@ -133,19 +253,9 @@ namespace testGame2.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Red_Ghost_Night {
+        internal static System.Drawing.Bitmap Red_Jarl {
             get {
-                object obj = ResourceManager.GetObject("Red_Ghost_Night", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Red_Host {
-            get {
-                object obj = ResourceManager.GetObject("Red_Host", resourceCulture);
+                object obj = ResourceManager.GetObject("Red_Jarl", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -163,9 +273,49 @@ namespace testGame2.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Red_Minester {
+        internal static System.Drawing.Bitmap Red_Musketeer {
             get {
-                object obj = ResourceManager.GetObject("Red_Minester", resourceCulture);
+                object obj = ResourceManager.GetObject("Red_Musketeer", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Red_Page {
+            get {
+                object obj = ResourceManager.GetObject("Red_Page", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Red_Pope {
+            get {
+                object obj = ResourceManager.GetObject("Red_Pope", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Red_Princess {
+            get {
+                object obj = ResourceManager.GetObject("Red_Princess", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap RedCard {
+            get {
+                object obj = ResourceManager.GetObject("RedCard", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

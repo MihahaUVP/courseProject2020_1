@@ -427,8 +427,8 @@
             this.pictureBoxHand3.TabIndex = 6;
             this.pictureBoxHand3.TabStop = false;
             this.pictureBoxHand3.Click += new System.EventHandler(this.pictureBoxHand3_Click);
-            this.pictureBoxHand3.MouseEnter += new System.EventHandler(this.pictureBoxHand3_MouseEnter);
-            this.pictureBoxHand3.MouseLeave += new System.EventHandler(this.pictureBoxHand3_MouseLeave);
+           // this.pictureBoxHand3.MouseEnter += new System.EventHandler(this.pictureBoxHand3_MouseEnter);
+           // this.pictureBoxHand3.MouseLeave += new System.EventHandler(this.pictureBoxHand3_MouseLeave);
             // 
             // pictureBoxHand2
             // 
@@ -441,8 +441,7 @@
             this.pictureBoxHand2.TabIndex = 5;
             this.pictureBoxHand2.TabStop = false;
             this.pictureBoxHand2.Click += new System.EventHandler(this.pictureBoxHand2_Click);
-            this.pictureBoxHand2.MouseEnter += new System.EventHandler(this.pictureBoxHand2_MouseEnter);
-            this.pictureBoxHand2.MouseLeave += new System.EventHandler(this.pictureBoxHand2_MouseLeave);
+            //this.pictureBoxHand2.MouseLeave += new System.EventHandler(this.pictureBoxHand2_MouseLeave);
             // 
             // pictureBox1
             // 
@@ -466,8 +465,8 @@
             this.PictureBox_Hand1.TabIndex = 2;
             this.PictureBox_Hand1.TabStop = false;
             this.PictureBox_Hand1.Click += new System.EventHandler(this.PictureBox_Hand1_Click);
-            this.PictureBox_Hand1.MouseEnter += new System.EventHandler(this.PictureBox_Hand1_MouseEnter);
-            this.PictureBox_Hand1.MouseLeave += new System.EventHandler(this.PictureBox_Hand1_MouseLeave);
+           // this.PictureBox_Hand1.MouseEnter += new System.EventHandler(this.PictureBox_Hand1_MouseEnter);
+           // this.PictureBox_Hand1.MouseLeave += new System.EventHandler(this.PictureBox_Hand1_MouseLeave);
             // 
             // debugLabel1
             // 

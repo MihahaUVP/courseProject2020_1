@@ -56,34 +56,40 @@ namespace CardsAndDecks
                 Image img = null;
                 var cards = Program._appContext.Cards.ToList();
                 Console.WriteLine("Текущая колода:");
+                Console.WriteLine("Красный:");
                 foreach (var c in cards)
                 {
                     // временная мера, потом будет свич или картинки будут в бд(если это возможно)
-                    if (c.Name == "Варвар")
+                    if (c.Title == "Варвар")
                         img = testGame2.Properties.Resources.Red_Barbarian;
-                    if(c.Name == "Джин")
+                    if(c.Title == "Джинн")
                         img = testGame2.Properties.Resources.Red_Genie;
-                    if(c.Name == "Доктор")
-                    {
+                    if(c.Title == "Доктор")
                         img = testGame2.Properties.Resources.Red_Doctor;
-                    }
-                    if (c.Name == "Хозяйка")
-                    {
-                        img = testGame2.Properties.Resources.Red_Host;
-                    }
-                    if (c.Name == "Министр")
-                    {
-                        img = testGame2.Properties.Resources.Red_Minester;
-                    }
-                    if(c.Name == "ПРИЗрачный рыцарь")
-                    {
-                        img = testGame2.Properties.Resources.Red_Ghost_Night;
-                    }
-                    if(img == null)
-                    {
+                    if (c.Title == "Барон")
+                        img = testGame2.Properties.Resources.Red_Baron;
+                    if (c.Title == "Лягушка")
+                        img = testGame2.Properties.Resources.Red_Frog;
+                    if (c.Title == "Поп")
+                        img = testGame2.Properties.Resources.Red_Pope;
+
+
+                    if (c.Title == "Солоха")
+                        img = testGame2.Properties.Resources.Green_Solokha;
+                    if (c.Title == "Разбойница")
+                        img = testGame2.Properties.Resources.Green_Thief;
+                    if (c.Title == "Всадник без головы")
+                        img = testGame2.Properties.Resources.Green_HeadlessHorseman;
+                    if (c.Title == "Воланд")
+                        img = testGame2.Properties.Resources.Green_Woland;
+                    if (c.Title == "Пыточных дел мастер")
+                        img = testGame2.Properties.Resources.Green_TortureMaster;
+                    if (c.Title == "Змей Горыныч")
+                        img = testGame2.Properties.Resources.Green_ZmeiGorynych;
+
+                    if (img == null)
                         img = testGame2.Properties.Resources.GreenCard;
-                    }
-                    deck.Add(new Card(img, c.Name, c.Gold, c.Damage, t));
+                    deck.Add(new Card(img, c.Title, c.Gold, c.Damage, t));
                 }
             }
             
