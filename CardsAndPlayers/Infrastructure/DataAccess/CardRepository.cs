@@ -28,7 +28,7 @@ namespace Infrastructure.DataAccess
 
         public IReadOnlyList<Card> GetCardsByName(string title)
         {
-            return _dbContext.Cards.Where(x => x.Title.ToLower().Contains(title.ToLower())).ToList();
+            return _dbContext.Cards.Where(x => x.Name.ToLower().Contains(title.ToLower())).ToList();
         }        
     }
 }

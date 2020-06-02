@@ -7,7 +7,7 @@ namespace Cards.Entities
     public class Card : AuditableEntity
     {
         public string Text { get; set; }
-        public string Title { get; set; }
+        public string Name { get; set; }
         public int Health { get; set; }
         public int Damage { get; set; }
         public int Gold { get; set; }
@@ -18,7 +18,7 @@ namespace Cards.Entities
         public Card(int playerId, string title, int health, int damage, int gold, string text)
         {
             PlayerId = playerId;
-            Title = title;
+            Name = title;
             Text = text;
             Health = health;
             Damage = damage;

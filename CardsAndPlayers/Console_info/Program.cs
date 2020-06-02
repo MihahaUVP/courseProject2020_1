@@ -70,7 +70,7 @@ namespace Comsole_info
             card = new Card(player.Id, "Поп", 2, 2, 5, "Эффект: Пока Поп находится на столе, Воланд, Всадник без головы и Кентервильское привидение не могут атаковать");
             //_cardRepository.Add(card);
             _cardRepository.Add(card);
-            Console.WriteLine("Hello " + card.Title);
+            Console.WriteLine("Hello " + card.Name);
 
             using (_appContext)
             {
@@ -78,7 +78,7 @@ namespace Comsole_info
                 Console.WriteLine("Текущая колода:");
                 foreach(Card c in cards)
                 {
-                    Console.WriteLine($"{c.Id}) {c.Title}: {c.Gold} gold, {c.Damage} atk; <<{c.Text}>>");
+                    Console.WriteLine($"{c.Id}) {c.Name}: {c.Gold} gold, {c.Damage} atk; <<{c.Text}>>");
                 }
             }
         }

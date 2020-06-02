@@ -60,36 +60,36 @@ namespace CardsAndDecks
                 foreach (var c in cards)
                 {
                     // временная мера, потом будет свич или картинки будут в бд(если это возможно)
-                    if (c.Title == "Варвар")
+                    if (c.Name == "Варвар")
                         img = testGame2.Properties.Resources.Red_Barbarian;
-                    if(c.Title == "Джинн")
+                    if(c.Name == "Джинн")
                         img = testGame2.Properties.Resources.Red_Genie;
-                    if(c.Title == "Доктор")
+                    if(c.Name == "Доктор")
                         img = testGame2.Properties.Resources.Red_Doctor;
-                    if (c.Title == "Барон")
+                    if (c.Name == "Барон")
                         img = testGame2.Properties.Resources.Red_Baron;
-                    if (c.Title == "Лягушка")
+                    if (c.Name == "Лягушка")
                         img = testGame2.Properties.Resources.Red_Frog;
-                    if (c.Title == "Поп")
+                    if (c.Name == "Поп")
                         img = testGame2.Properties.Resources.Red_Pope;
 
 
-                    if (c.Title == "Солоха")
+                    if (c.Name == "Солоха")
                         img = testGame2.Properties.Resources.Green_Solokha;
-                    if (c.Title == "Разбойница")
+                    if (c.Name == "Разбойница")
                         img = testGame2.Properties.Resources.Green_Thief;
-                    if (c.Title == "Всадник без головы")
+                    if (c.Name == "Всадник без головы")
                         img = testGame2.Properties.Resources.Green_HeadlessHorseman;
-                    if (c.Title == "Воланд")
+                    if (c.Name == "Воланд")
                         img = testGame2.Properties.Resources.Green_Woland;
-                    if (c.Title == "Пыточных дел мастер")
+                    if (c.Name == "Пыточных дел мастер")
                         img = testGame2.Properties.Resources.Green_TortureMaster;
-                    if (c.Title == "Змей Горыныч")
+                    if (c.Name == "Змей Горыныч")
                         img = testGame2.Properties.Resources.Green_ZmeiGorynych;
 
                     if (img == null)
                         img = testGame2.Properties.Resources.GreenCard;
-                    deck.Add(new Card(img, c.Title, c.Gold, c.Damage, t));
+                    deck.Add(new Card(img, c.Name, c.Gold, c.Damage, t));
                 }
             }
             
