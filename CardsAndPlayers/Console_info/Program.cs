@@ -29,7 +29,8 @@ namespace Comsole_info
         }
         static void Main(string[] args)
         {
-            Console.WriteLine("This! Is! Burnt World!");
+            Console.WriteLine("начинается создание новой стандартной колоды:");
+
             Player player = new Player("CurrentPlayerNick",20);
             _playerRepository.Add(player);
             Card card = new Card(player.Id,"Воланд",5,5,20,"Боевой клич: Замешивает в колоду Кота Бегемота, Кота в сапогах и Кота Учёного");

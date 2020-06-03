@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\миша\\Source\\Repos\\courseProject2020_1\\CardsAndPlayers\\Infrastructure\\Infrastructure.csproj": {}
+    "C:\\Users\\User\\Desktop\\Курсовая\\courseProject2020_1\\CardsAndPlayers\\Infrastructure\\Infrastructure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\миша\\Source\\Repos\\courseProject2020_1\\CardsAndPlayers\\Card\\Card.csproj": {
+    "C:\\Users\\User\\Desktop\\Курсовая\\courseProject2020_1\\CardsAndPlayers\\Card\\Card.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\миша\\Source\\Repos\\courseProject2020_1\\CardsAndPlayers\\Card\\Card.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\Курсовая\\courseProject2020_1\\CardsAndPlayers\\Card\\Card.csproj",
         "projectName": "Card",
-        "projectPath": "C:\\Users\\миша\\Source\\Repos\\courseProject2020_1\\CardsAndPlayers\\Card\\Card.csproj",
-        "packagesPath": "C:\\Users\\миша\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\миша\\Source\\Repos\\courseProject2020_1\\CardsAndPlayers\\Card\\obj\\",
+        "projectPath": "C:\\Users\\User\\Desktop\\Курсовая\\courseProject2020_1\\CardsAndPlayers\\Card\\Card.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\Курсовая\\courseProject2020_1\\CardsAndPlayers\\Card\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\миша\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -75,21 +78,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\миша\\Source\\Repos\\courseProject2020_1\\CardsAndPlayers\\Infrastructure\\Infrastructure.csproj": {
+    "C:\\Users\\User\\Desktop\\Курсовая\\courseProject2020_1\\CardsAndPlayers\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\миша\\Source\\Repos\\courseProject2020_1\\CardsAndPlayers\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\Курсовая\\courseProject2020_1\\CardsAndPlayers\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "C:\\Users\\миша\\Source\\Repos\\courseProject2020_1\\CardsAndPlayers\\Infrastructure\\Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\миша\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\миша\\Source\\Repos\\courseProject2020_1\\CardsAndPlayers\\Infrastructure\\obj\\",
+        "projectPath": "C:\\Users\\User\\Desktop\\Курсовая\\courseProject2020_1\\CardsAndPlayers\\Infrastructure\\Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\Курсовая\\courseProject2020_1\\CardsAndPlayers\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\миша\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -102,8 +108,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\миша\\Source\\Repos\\courseProject2020_1\\CardsAndPlayers\\Card\\Card.csproj": {
-                "projectPath": "C:\\Users\\миша\\Source\\Repos\\courseProject2020_1\\CardsAndPlayers\\Card\\Card.csproj"
+              "C:\\Users\\User\\Desktop\\Курсовая\\courseProject2020_1\\CardsAndPlayers\\Card\\Card.csproj": {
+                "projectPath": "C:\\Users\\User\\Desktop\\Курсовая\\courseProject2020_1\\CardsAndPlayers\\Card\\Card.csproj"
               }
             }
           }
@@ -154,7 +160,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,0 +1,31 @@
+﻿@model IEnumerable<Cards.Entities.Card>
+@{
+    ViewData["Title"] = "Main page";
+}
+
+<h1>Колода текущего игрока:</h1>
+
+<table>
+    <thead>
+        <tr>
+            <th>Название</th>
+            <th>Игрок</th>
+            <th>Урон</th>
+            <th>Стоимость</th>
+            <th>Текст на карте</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@Html.DisplayFor(modelItem => item.Name)</td>
+                <td>@Html.DisplayFor(modelItem => item.Player.NickName)</td>
+                <td>@Html.DisplayFor(modelItem => item.Damage)</td>
+                <td>@Html.DisplayFor(modelItem => item.Gold)</td>
+                <td>@Html.DisplayFor(modelItem => item.Text)</td>
+            </tr>
+        }
+    </tbody>
+</table>
+

@@ -61,4 +61,3 @@ C:\Users\User\Desktop\Курсовая\courseProject2020_1\CardsAndPlayers\Card\
 C:\Users\User\Desktop\Курсовая\courseProject2020_1\CardsAndPlayers\Card\obj\Debug\netcoreapp3.1\Card.dll
 C:\Users\User\Desktop\Курсовая\courseProject2020_1\CardsAndPlayers\Card\obj\Debug\netcoreapp3.1\Card.pdb
 C:\Users\User\Desktop\Курсовая\courseProject2020_1\CardsAndPlayers\Card\obj\Debug\netcoreapp3.1\Card.genruntimeconfig.cache
-C:\Users\User\Desktop\Курсовая\courseProject2020_1\CardsAndPlayers\Card\obj\Debug\netcoreapp3.1\Card.csprojAssemblyReference.cache
