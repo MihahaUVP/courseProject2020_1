@@ -175,7 +175,7 @@ namespace testGame2
                 pb.Image = game.CurrentPlayer.CurrentCard.getImg();
                 game.CurrentPlayer.Stat.Gold -= game.CurrentPlayer.CurrentCard.getGold();
                 label_money.Text = "" + game.CurrentPlayer.Stat.Gold;
-                game.CurrentPlayer.setCardFromHand(new NullCard(), game.CurrentPlayer.NumberOfCardInPlay);// hand[numberOfCardInPlay] = new NullCard();
+                game.CurrentPlayer.setCardFromHand(new NullCard(), game.CurrentPlayer.NumberOfCardInPlay);
                 drawHand();
 
                 //
@@ -348,16 +348,4 @@ namespace testGame2
             button_newHand.Enabled = true;
         }
     }
-    // перенести код из класса form1 в класс game или player, так как золото и фаза хода - это не характеристики формы!!1\!
-    //   public class Player
-    //   {
-    //       public int gold;
-    //   }
-
-    // значения надо будет брать из базы
-
-    //enum Battle
-    //{
-    //    Battle
-    //}
 }
