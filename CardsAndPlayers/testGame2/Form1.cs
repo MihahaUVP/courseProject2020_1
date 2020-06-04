@@ -14,7 +14,6 @@ namespace testGame2
     public partial class Form1 : Form
     {
         Game1 game;
-        //int game_mode = 0;//0 - начало игры. 1 - фаза вербовки. 2 - фаза боя; заменить на enum,как team
         int maxGold = 20;
         public Form1()
         {
@@ -26,7 +25,7 @@ namespace testGame2
                 game.CurrentPlayer.SetCardInPlay(i, new NullCard());
             }
             labelEnemyHealth.Text = "" + game.EnemyPlayer.hero.getHealth();
-            labelHeroHealth.Text =""+ game.CurrentPlayer.hero.getHealth();
+            labelHeroHealth.Text = "" + game.CurrentPlayer.hero.getHealth();
             label_money.Text = "" + game.CurrentPlayer.Stat.Gold;
             Team t = game.CurrentPlayer.getMyTeam();
             game.CurrentPlayer.MyDeck.shuffle();
@@ -35,7 +34,7 @@ namespace testGame2
 
         private void newHand()
         {
-            for (int i = 0; i < 3;i++)
+            for (int i = 0; i < 3; i++)
                 if (!(game.CurrentPlayer.getCardFromHand(i) is NullCard))
                 {
                     game.CurrentPlayer.DiscardDeck.AddToDeck(game.CurrentPlayer.getCardFromHand(i));
@@ -43,29 +42,32 @@ namespace testGame2
 
             if (game.CurrentPlayer.MyDeck.numberOfCards() - 3 >= game.CurrentPlayer.NumberOfTheTopCard)
             {
-                game.CurrentPlayer.setCardFromHand(game.CurrentPlayer.MyDeck.GetTopCard(),0);
+                game.CurrentPlayer.setCardFromHand(game.CurrentPlayer.MyDeck.GetTopCard(), 0);
                 game.CurrentPlayer.setCardFromHand(game.CurrentPlayer.MyDeck.GetTopCard(), 1);
                 game.CurrentPlayer.setCardFromHand(game.CurrentPlayer.MyDeck.GetTopCard(), 2);
-            } else
+            }
+            else
                 if (game.CurrentPlayer.MyDeck.numberOfCards() - 2 == game.CurrentPlayer.NumberOfTheTopCard)
             {
                 game.CurrentPlayer.setCardFromHand(game.CurrentPlayer.MyDeck.GetTopCard(), 0);
                 game.CurrentPlayer.setCardFromHand(game.CurrentPlayer.MyDeck.GetTopCard(), 1);
                 game.CurrentPlayer.setCardFromHand(new NullCard(), 2);
-            } else
+            }
+            else
                     if (game.CurrentPlayer.MyDeck.numberOfCards() - 1 == game.CurrentPlayer.NumberOfTheTopCard)
             {
                 game.CurrentPlayer.setCardFromHand(game.CurrentPlayer.MyDeck.GetTopCard(), 0);
                 game.CurrentPlayer.setCardFromHand(new NullCard(), 1);
                 game.CurrentPlayer.setCardFromHand(new NullCard(), 2);
-            }else
-                {
+            }
+            else
+            {
                 game.CurrentPlayer.AddDiscardToDeck();
                 game.CurrentPlayer.MyDeck.shuffle();
                 game.CurrentPlayer.setCardFromHand(game.CurrentPlayer.MyDeck.GetTopCard(), 0);
                 game.CurrentPlayer.setCardFromHand(game.CurrentPlayer.MyDeck.GetTopCard(), 1);
                 game.CurrentPlayer.setCardFromHand(game.CurrentPlayer.MyDeck.GetTopCard(), 2);
-                }
+            }
             drawHand();
         }
         private void button_newHand_Click(object sender, EventArgs e)
@@ -96,14 +98,14 @@ namespace testGame2
                 newHand();
                 button_newHand.Enabled = false;
                 AIplay();
-                
+
             }
         }
         private void AIplay()
         {
-            PictureBox[] pbs = { pictureBox7,pictureBox8,pictureBox9,pictureBox10,pictureBox11 };
+            PictureBox[] pbs = { pictureBox7, pictureBox8, pictureBox9, pictureBox10, pictureBox11 };
             int j = 0;
-            while ((j <3)&&(game.CurrentPlayer.Stat.Gold >= game.CurrentPlayer.getCardFromHand(j).getGold()))
+            while ((j < 3) && (game.CurrentPlayer.Stat.Gold >= game.CurrentPlayer.getCardFromHand(j).getGold()))
             {
                 game.CurrentPlayer.CurrentCard = game.CurrentPlayer.getCardFromHand(j);
                 for (int i = 0; i < 5; i++)
@@ -118,7 +120,7 @@ namespace testGame2
                 j++;
             }
             timer1.Enabled = true;
-            
+
         }
         private void pictureBoxHand3_Click(object sender, EventArgs e)
         {
@@ -154,7 +156,7 @@ namespace testGame2
         {
             if (game.GameMode == 1)
             {
-                this.playCard(pictureBox_InPlay1,0);
+                this.playCard(pictureBox_InPlay1, 0);
             }
             if (game.GameMode == 2)
             {
@@ -164,16 +166,20 @@ namespace testGame2
                 }
             }
         }
-        private void playCard(PictureBox pb,int numberOfCard)
+        private void playCard(PictureBox pb, int numberOfCard)
         {
             if (game.CurrentPlayer.Stat.Gold >= game.CurrentPlayer.CurrentCard.getGold() && (!(game.CurrentPlayer.CurrentCard is NullCard)))
             {
                 game.CurrentPlayer.SetCardInPlay(numberOfCard, game.CurrentPlayer.CurrentCard);
+                //cardsInPlay[numberOfCard] = player1.CurrentCard;
                 pb.Image = game.CurrentPlayer.CurrentCard.getImg();
                 game.CurrentPlayer.Stat.Gold -= game.CurrentPlayer.CurrentCard.getGold();
                 label_money.Text = "" + game.CurrentPlayer.Stat.Gold;
-                game.CurrentPlayer.setCardFromHand(new NullCard(), game.CurrentPlayer.NumberOfCardInPlay);
+                game.CurrentPlayer.setCardFromHand(new NullCard(), game.CurrentPlayer.NumberOfCardInPlay);// hand[numberOfCardInPlay] = new NullCard();
                 drawHand();
+
+                //
+
                 game.CurrentPlayer.CurrentCard = new NullCard();
             }
         }
@@ -182,7 +188,7 @@ namespace testGame2
         {
             if (game.GameMode == 1)
             {
-                this.playCard(pictureBox_InPlay2,1);
+                this.playCard(pictureBox_InPlay2, 1);
             }
             if (game.GameMode == 2)
             {
@@ -197,7 +203,7 @@ namespace testGame2
         {
             if (game.GameMode == 1)
             {
-                this.playCard(pictureBox_InPlay3,2);
+                this.playCard(pictureBox_InPlay3, 2);
             }
             if (game.GameMode == 2)
             {
@@ -237,17 +243,17 @@ namespace testGame2
                 }
             }
         }
-        public void playAttack(int number,PictureBox pb)
+        public void playAttack(int number, PictureBox pb)
         {
-            if (game.CurrentPlayer.getMyTeam() == Team.red) //временное решение
+            if (game.CurrentPlayer.getMyTeam() == Team.red)
             {
                 game.CurrentPlayer.PlayAtackCard(game.EnemyPlayer, number);
                 labelEnemyHealth.Text = "" + game.EnemyPlayer.hero.getHealth();
                 pb.Image = game.CurrentPlayer.GetCardInPlay(number).getImg();
                 label_energy.Text = "" + game.CurrentPlayer.Stat.Energy;
-                if(game.EnemyPlayer.hero.getHealth() <= 0)
+                if (game.EnemyPlayer.hero.getHealth() <= 0)
                 {
-                    labelWin.Text = "Победа!";
+                    labelWin.Text = "Победа";
                 }
             }
             else
@@ -258,7 +264,7 @@ namespace testGame2
                 label_energy.Text = "" + game.CurrentPlayer.Stat.Energy;
                 if (game.EnemyPlayer.hero.getHealth() <= 0)
                 {
-                    labelWin.Text = "Поражение!";
+                    labelWin.Text = "Поражение";
                 }
             }
         }
@@ -273,7 +279,7 @@ namespace testGame2
         }
         private void drawHand()
         {
-            if (game.CurrentPlayer.getMyTeam() ==Team.red)
+            if (game.CurrentPlayer.getMyTeam() == Team.red)
             {
                 PictureBox_Hand1.Image = game.CurrentPlayer.getCardFromHand(0).getImg();// hand[0].getImg();
                 pictureBoxHand2.Image = game.CurrentPlayer.getCardFromHand(1).getImg();
@@ -290,12 +296,11 @@ namespace testGame2
                 pictureBoxEnemyHand1.Image = game.CurrentPlayer.getCardFromHand(0).getImg();// hand[0].getImg();
                 pictureBoxEnemyHand2.Image = game.CurrentPlayer.getCardFromHand(1).getImg();
                 pictureBoxEnemyHand3.Image = game.CurrentPlayer.getCardFromHand(2).getImg();
-              //вывод руки противнкика временный для более лёгкой отладки
             }
         }
 
 
-       /*private void pictureBoxHand2_MouseEnter(object sender, EventArgs e)
+        private void pictureBoxHand2_MouseEnter(object sender, EventArgs e)
         {
             //pictureBoxHand2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
         }
@@ -323,14 +328,14 @@ namespace testGame2
         private void PictureBox_Hand1_MouseLeave(object sender, EventArgs e)
         {
             //PictureBox_Hand1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-        }*/
+        }
 
         private void timer1_Tick(object sender, EventArgs e)
         {
             PictureBox[] pbs = { pictureBox7, pictureBox8, pictureBox9, pictureBox10, pictureBox11 };
             for (int i = 0; i < 5; i++)
             {
-                if ((!(game.CurrentPlayer.GetCardInPlay(i) is NullCard))&&(game.CurrentPlayer.Stat.Energy > 0))
+                if ((!(game.CurrentPlayer.GetCardInPlay(i) is NullCard)) && (game.CurrentPlayer.Stat.Energy > 0))
                 {
                     playAttack(i, pbs[i]);
                 }
@@ -343,4 +348,16 @@ namespace testGame2
             button_newHand.Enabled = true;
         }
     }
+    // перенести код из класса form1 в класс game или player, так как золото и фаза хода - это не характеристики формы!!1\!
+    //   public class Player
+    //   {
+    //       public int gold;
+    //   }
+
+    // значения надо будет брать из базы
+
+    //enum Battle
+    //{
+    //    Battle
+    //}
 }
