@@ -443,3 +443,5 @@ C:\Users\User\Desktop\Курсовая\courseProject2020_1\CardsAndPlayers\Web_C
 C:\Users\User\Desktop\Курсовая\courseProject2020_1\CardsAndPlayers\Web_Cards_And_Players\obj\Debug\netcoreapp3.1\Razor\Views\HtmlCard\Index.cshtml.g.cs
 C:\Users\User\Desktop\Курсовая\courseProject2020_1\CardsAndPlayers\Web_Cards_And_Players\obj\Debug\netcoreapp3.1\Web_Cards_And_Players.RazorTargetAssemblyInfo.cs
 C:\Users\User\Desktop\Курсовая\courseProject2020_1\CardsAndPlayers\Web_Cards_And_Players\obj\Debug\netcoreapp3.1\Web_Cards_And_Players.Views.pdb
+C:\Users\User\Desktop\Курсовая\courseProject2020_1\CardsAndPlayers\Web_Cards_And_Players\obj\Debug\netcoreapp3.1\Razor\Views\HtmlCard\Edit.cshtml.g.cs
+C:\Users\User\Desktop\Курсовая\courseProject2020_1\CardsAndPlayers\Web_Cards_And_Players\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs

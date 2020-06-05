@@ -1,0 +1,27 @@
+﻿@model Cards.Entities.Card
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Редактирование карты:</h1>
+
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            @Html.HiddenFor(p => p.Id)
+            <h2>Название:</h2>
+            <input asp-for="Name" class="form-control" />
+            <h2>ID игрока:</h2>
+            <input asp-for="PlayerId" class="form-control" />
+            <h2>Урон:</h2>
+            <input asp-for="Damage" class="form-control" />
+            <h2>Стоимость:</h2>
+            <input asp-for="Gold" class="form-control" />
+            <h2>Текст на карте:</h2>
+            <input asp-for="Text" class="form-control" />
+            <input type="submit" value="Обновить" class="btn btn-primary" />
+        </form>
+    </div>
+</div>
+
+<a asp-action="Index"><p>На главную</p></a>

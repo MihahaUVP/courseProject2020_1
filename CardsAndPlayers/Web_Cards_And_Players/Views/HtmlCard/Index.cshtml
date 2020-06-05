@@ -13,18 +13,20 @@
             <th>Урон</th>
             <th>Стоимость</th>
             <th>Текст на карте</th>
+            <th></th>
         </tr>
     </thead>
     <tbody>
         @foreach (var item in Model)
         {
-            <tr>
-                <td>@Html.DisplayFor(modelItem => item.Name)</td>
-                <td>@Html.DisplayFor(modelItem => item.Player.NickName)</td>
-                <td>@Html.DisplayFor(modelItem => item.Damage)</td>
-                <td>@Html.DisplayFor(modelItem => item.Gold)</td>
-                <td>@Html.DisplayFor(modelItem => item.Text)</td>
-            </tr>
+        <tr>
+            <td>@Html.DisplayFor(modelItem => item.Name)</td>
+            <td>@Html.DisplayFor(modelItem => item.Player.NickName)</td>
+            <td><center>@Html.DisplayFor(modelItem => item.Damage)</center></td>
+            <td><center>@Html.DisplayFor(modelItem => item.Gold)</center></td>
+            <td>@Html.DisplayFor(modelItem => item.Text)</td>
+            <td><a asp-action="Edit" asp-route-id="@item.Id">Обновить</a></td>
+        </tr>
         }
     </tbody>
 </table>
