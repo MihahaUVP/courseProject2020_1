@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using System.Text;
 using Cards.Entities;
-
+using Infrastructure.DataAccess.CRUDInterfaces;
 namespace Infrastructure.DataAccess
 {
-    public interface ICardRepository
+    public interface ICardRepository: ICanDeleteEntity<Card>
     {
         IReadOnlyList<Card> GetAll();
         Card Get(int id);

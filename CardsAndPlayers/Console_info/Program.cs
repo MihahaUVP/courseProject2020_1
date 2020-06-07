@@ -31,10 +31,24 @@ namespace Comsole_info
         {
             Console.WriteLine("начинается создание новой стандартной колоды:");
 
+            Console.WriteLine("Выберите действие:\n1) Добавить новые карты(рекомендуется при первом запуске)\n2) Удалит старую колоду и добавить новую");
+            char k;
+            k = (char)Console.Read();
+            if (k == '2')
+            {
+                var cards_d = _appContext.Cards.ToList();
+                foreach (Card c in cards_d)
+                {
+                    _appContext.Cards.Remove(c);
+                }
+            }
+
             Player player = new Player("CurrentPlayerNick",20);
             _playerRepository.Add(player);
             Card card = new Card(player.Id,"Воланд",5,5,20,"Боевой клич: Замешивает в колоду Кота Бегемота, Кота в сапогах и Кота Учёного");
+            Card card1 = card;
             _cardRepository.Add(card);
+            //_cardRepository.Remove(card1);
             card = new Card(player.Id, "Джинн", 6, 6, 20, "Боевой клич: Замешивает в колоду одну бронзовую, одну серебряную и одну золотую карту");
             _cardRepository.Add(card);
             card = new Card(player.Id, "Разбойница", 4, 4, 10, "Боевой клич: Крадёт из казны противника 5 монет");
