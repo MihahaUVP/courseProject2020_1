@@ -42,7 +42,7 @@ namespace Comsole_info
                     _appContext.Cards.Remove(c);
                 }
             }
-
+            _appContext.SaveChanges();
             Player player = new Player("CurrentPlayerNick",20);
             _playerRepository.Add(player);
             Card card = new Card(player.Id,"Воланд",5,5,20,"Боевой клич: Замешивает в колоду Кота Бегемота, Кота в сапогах и Кота Учёного");
