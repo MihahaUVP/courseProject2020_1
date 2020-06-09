@@ -2553,7 +2553,10 @@
         },
         "runtime": {
           "bin/placeholder/Card.dll": {}
-        }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       },
       "Infrastructure/1.0.0": {
         "type": "project",
@@ -2569,7 +2572,10 @@
         },
         "runtime": {
           "bin/placeholder/Infrastructure.dll": {}
-        }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       },
       "Web_Cards_And_Players/1.0.0": {
         "type": "project",
@@ -8337,11 +8343,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Source\\Repos\\courseProject2020_1\\CardsAndPlayers\\Console_info\\Console_info.csproj",
+      "projectUniqueName": "C:\\Users\\User\\source\\repos\\courseProject2020_1\\CardsAndPlayers\\Console_info\\Console_info.csproj",
       "projectName": "Console_info",
-      "projectPath": "C:\\Users\\User\\Source\\Repos\\courseProject2020_1\\CardsAndPlayers\\Console_info\\Console_info.csproj",
+      "projectPath": "C:\\Users\\User\\source\\repos\\courseProject2020_1\\CardsAndPlayers\\Console_info\\Console_info.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\Source\\Repos\\courseProject2020_1\\CardsAndPlayers\\Console_info\\obj\\",
+      "outputPath": "C:\\Users\\User\\source\\repos\\courseProject2020_1\\CardsAndPlayers\\Console_info\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -8360,14 +8366,14 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\User\\Source\\Repos\\courseProject2020_1\\CardsAndPlayers\\Card\\Card.csproj": {
-              "projectPath": "C:\\Users\\User\\Source\\Repos\\courseProject2020_1\\CardsAndPlayers\\Card\\Card.csproj"
+            "C:\\Users\\User\\source\\repos\\courseProject2020_1\\CardsAndPlayers\\Card\\Card.csproj": {
+              "projectPath": "C:\\Users\\User\\source\\repos\\courseProject2020_1\\CardsAndPlayers\\Card\\Card.csproj"
             },
-            "C:\\Users\\User\\Source\\Repos\\courseProject2020_1\\CardsAndPlayers\\Infrastructure\\Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\User\\Source\\Repos\\courseProject2020_1\\CardsAndPlayers\\Infrastructure\\Infrastructure.csproj"
+            "C:\\Users\\User\\source\\repos\\courseProject2020_1\\CardsAndPlayers\\Infrastructure\\Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\User\\source\\repos\\courseProject2020_1\\CardsAndPlayers\\Infrastructure\\Infrastructure.csproj"
             },
-            "C:\\Users\\User\\Source\\Repos\\courseProject2020_1\\CardsAndPlayers\\Web_Cards_And_Players\\Web_Cards_And_Players.csproj": {
-              "projectPath": "C:\\Users\\User\\Source\\Repos\\courseProject2020_1\\CardsAndPlayers\\Web_Cards_And_Players\\Web_Cards_And_Players.csproj"
+            "C:\\Users\\User\\source\\repos\\courseProject2020_1\\CardsAndPlayers\\Web_Cards_And_Players\\Web_Cards_And_Players.csproj": {
+              "projectPath": "C:\\Users\\User\\source\\repos\\courseProject2020_1\\CardsAndPlayers\\Web_Cards_And_Players\\Web_Cards_And_Players.csproj"
             }
           }
         }

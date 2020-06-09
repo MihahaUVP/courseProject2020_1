@@ -29,7 +29,7 @@ namespace Comsole_info
         }
         static void Main(string[] args)
         {
-            Console.WriteLine("начинается создание новой стандартной колоды:");
+            Console.WriteLine("Начинается создание новой стандартной колоды:");
 
             Console.WriteLine("Выберите действие:\n1) Добавить новые карты(рекомендуется при первом запуске)\n2) Удалить старую колоду и добавить новую");
             char k;
@@ -85,7 +85,7 @@ namespace Comsole_info
             card = new Card(player.Id, "Поп", 2, 2, 5, "Эффект: Пока Поп находится на столе, Воланд, Всадник без головы и Кентервильское привидение не могут атаковать");
             //_cardRepository.Add(card);
             _cardRepository.Add(card);
-            Console.WriteLine("Hello " + card.Name);
+            //Console.WriteLine("Hello " + card.Name);
 
             using (_appContext)
             {

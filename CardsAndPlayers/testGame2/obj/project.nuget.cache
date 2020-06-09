@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Tn6ViRaIAXTW8JvJvzDfaZGgFHDB8aytJQ8xAl+v7B/5SDKhzW7dYy8N+jrNSVeI1rrEQNmkuVphxBjdgbtp0Q==",
+  "dgSpecHash": "pB6ES4ZMezwUVjVxO4dUzYvUy51nd53ooSAng2+k1+8AVM2plbBAmquwjOdIS+cY6knfm/fUTDrYp5u41CJbhQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\User\\Source\\Repos\\courseProject2020_1\\CardsAndPlayers\\testGame2\\testGame2.csproj",
+  "projectFilePath": "C:\\Users\\User\\source\\repos\\courseProject2020_1\\CardsAndPlayers\\testGame2\\testGame2.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\3.1.4\\microsoft.aspnetcore.jsonpatch.3.1.4.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.mvc.newtonsoftjson\\3.1.4\\microsoft.aspnetcore.mvc.newtonsoftjson.3.1.4.nupkg.sha512",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\Source\\Repos\\courseProject2020_1\\CardsAndPlayers\\Card\\Card.csproj": {}
+    "C:\\Users\\User\\source\\repos\\courseProject2020_1\\CardsAndPlayers\\Card\\Card.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\Source\\Repos\\courseProject2020_1\\CardsAndPlayers\\Card\\Card.csproj": {
+    "C:\\Users\\User\\source\\repos\\courseProject2020_1\\CardsAndPlayers\\Card\\Card.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Source\\Repos\\courseProject2020_1\\CardsAndPlayers\\Card\\Card.csproj",
+        "projectUniqueName": "C:\\Users\\User\\source\\repos\\courseProject2020_1\\CardsAndPlayers\\Card\\Card.csproj",
         "projectName": "Card",
-        "projectPath": "C:\\Users\\User\\Source\\Repos\\courseProject2020_1\\CardsAndPlayers\\Card\\Card.csproj",
+        "projectPath": "C:\\Users\\User\\source\\repos\\courseProject2020_1\\CardsAndPlayers\\Card\\Card.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Source\\Repos\\courseProject2020_1\\CardsAndPlayers\\Card\\obj\\",
+        "outputPath": "C:\\Users\\User\\source\\repos\\courseProject2020_1\\CardsAndPlayers\\Card\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
