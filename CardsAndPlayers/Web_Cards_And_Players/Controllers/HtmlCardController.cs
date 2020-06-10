@@ -64,16 +64,16 @@ namespace WebCard.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult Edit(int id, [FromForm] Card card)
         {
-           // try
-            //{
+            try
+            {
                 _cardRepository.Update(card);
 
                 return RedirectToAction(nameof(Index));
-            //}
-            //catch
-            //{
-              //  return View();
-            //}
+            }
+            catch
+            {
+                return View();
+            }
         } 
     }
 }

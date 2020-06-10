@@ -82,9 +82,9 @@ namespace Comsole_info
             //_cardRepository.Add(card);
             //_cardRepository.Add(card);
             _cardRepository.Add(card);
-            card = new Card(player.Id, "Поп", 2, 2, 5, "Эффект: Пока Поп находится на столе, Воланд, Всадник без головы и Кентервильское привидение не могут атаковать");
+            //card = new Card(player.Id, "Поп", 2, 2, 5, "Эффект: Пока Поп находится на столе, Воланд, Всадник без головы и Кентервильское привидение не могут атаковать");
             //_cardRepository.Add(card);
-            _cardRepository.Add(card);
+            //_cardRepository.Add(card);
             //Console.WriteLine("Hello " + card.Name);
 
             using (_appContext)
