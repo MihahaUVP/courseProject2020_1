@@ -70,8 +70,8 @@ namespace CardsAndDecks
                         img = testGame2.Properties.Resources.Red_Baron;
                     if (c.Name == "Лягушка")
                         img = testGame2.Properties.Resources.Red_Frog;
-                    if (c.Name == "Поп")
-                        img = testGame2.Properties.Resources.Red_Pope;
+                    //if (c.Name == "Поп")
+                    //    img = testGame2.Properties.Resources.Red_Pope;
 
 
                     if (c.Name == "Солоха")
@@ -82,7 +82,7 @@ namespace CardsAndDecks
                         img = testGame2.Properties.Resources.Green_HeadlessHorseman;
                     if (c.Name == "Воланд")
                         img = testGame2.Properties.Resources.Green_Woland;
-                    if (c.Name == "Пыточных дел мастер")
+                    if (c.Name == "Инквизитор")
                         img = testGame2.Properties.Resources.Green_TortureMaster;
                     if (c.Name == "Змей Горыныч")
                         img = testGame2.Properties.Resources.Green_ZmeiGorynych;

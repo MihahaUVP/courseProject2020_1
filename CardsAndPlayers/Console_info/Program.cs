@@ -4,7 +4,8 @@ using Cards.Entities;
 using Infrastructure.DataAccess;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Design;
-namespace Comsole_info
+
+namespace Console_info
 {
     public class AppDbContextFactory : IDesignTimeDbContextFactory<AppDbContext>
     {
@@ -63,7 +64,7 @@ namespace Comsole_info
             card = new Card(player.Id, "Барон", 6, 6, 10, "Провокация: Поглощает весь урон, нанесённый своему королю");
             //_cardRepository.Add(card);
             _cardRepository.Add(card);
-            card = new Card(player.Id, "Пыточных дел мастер", 1, 1, 10, "Эффект: Увеличивает урон на 1 каждый раз, когда карта из этого ряда попадает в сброс");
+            card = new Card(player.Id, "Инквизитор", 1, 1, 10, "Эффект: Увеличивает урон на 1 каждый раз, когда карта из этого ряда попадает в сброс");
             //_cardRepository.Add(card);
             _cardRepository.Add(card);
             card = new Card(player.Id, "Берсерк", 3, 3, 5, "Единство: Если на столе есть три Берсерка, в колоду замешивается Ярл Берсерков");
